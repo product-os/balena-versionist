@@ -1,4 +1,16 @@
 - commits:
+    - subject: refactor and add cli option
+      hash: 3bbfca5df9e9d2a818230c30feed331624e649f5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+      author: Giovanni Garufi
+  version: 0.0.4
+  date: 2018-10-31T16:41:44.204Z
+- commits:
     - subject: Fix changelog format
       hash: d78aca80b956d53194cb3e0daa4eb04173118a6a
       body: ''
