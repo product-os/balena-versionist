@@ -1,1 +1,12 @@
-[]
+- commits:
+    - subject: Fix changelog format
+      hash: d78aca80b956d53194cb3e0daa4eb04173118a6a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+      author: Giovanni Garufi
+  version: 0.0.3
+  date: 2018-10-31T12:29:29.378Z
