@@ -2,7 +2,10 @@
   "name": "balena-versionist",
   "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "balena-versionist": "lib/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
