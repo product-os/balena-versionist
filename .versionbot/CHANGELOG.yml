@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add docs
+      hash: bbf51b84c027da917ff2b668d3fca3f3892292bb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+      author: Giovanni Garufi
+  version: 0.0.5
+  date: 2018-10-31T16:59:39.511Z
+- commits:
     - subject: refactor and add cli option
       hash: 3bbfca5df9e9d2a818230c30feed331624e649f5
       body: ''
