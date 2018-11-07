@@ -1,4 +1,16 @@
 - commits:
+    - subject: Assume standard changelog for generic type
+      hash: 8175b1d767ed45a85011cc03fd64f76a3b764b24
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+      author: nazrhom
+  version: 0.1.1
+  date: 2018-11-07T13:45:15.122Z
+- commits:
     - subject: 'mappings: add rust support'
       hash: 2acbd9e664e848126f2e0cea91480190ca3ce484
       body: ''
