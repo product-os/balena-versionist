@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'mappings: add rust support'
+      hash: 2acbd9e664e848126f2e0cea91480190ca3ce484
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+      author: nazrhom
+  version: 0.1.0
+  date: 2018-11-07T12:04:39.153Z
+- commits:
     - subject: Add docs
       hash: bbf51b84c027da917ff2b668d3fca3f3892292bb
       body: ''
