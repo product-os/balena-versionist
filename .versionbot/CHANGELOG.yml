@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'yocto-based-OS-image: Update versionist.conf'
+      hash: 6336549adaac50f6eee5d7c86bd6b61126f1e806
+      body: |
+        Ensure the correct meta-balena version is obtained even if it is tagged
+        with a ligthweight tag
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.1.2
+  date: 2019-01-16T10:59:49.643Z
+- commits:
     - subject: Assume standard changelog for generic type
       hash: 8175b1d767ed45a85011cc03fd64f76a3b764b24
       body: ''
