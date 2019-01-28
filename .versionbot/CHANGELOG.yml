@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add node type
+      hash: c801962316306a6da12ade35585d0dd5e0df1928
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.2.0
+  date: 2019-01-28T13:20:41.372Z
+- commits:
     - subject: Drop extra v prefix from meta-balena version
       hash: 5afa7322f9e89f93282c1b2f9079d83489bc6491
       body: ''
