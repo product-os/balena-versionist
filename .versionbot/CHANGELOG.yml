@@ -1,4 +1,18 @@
 - commits:
+    - subject: >-
+        yocto-based-OS-image: Accept both meta-resin and meta-balena as valid
+        sublayers
+      hash: ed74d9acbf7be94432406965652e10e011708f6e
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.3.0
+  date: 2019-01-31T18:40:54.659Z
+- commits:
     - subject: Add node type
       hash: c801962316306a6da12ade35585d0dd5e0df1928
       body: ''
