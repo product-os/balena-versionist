@@ -1,4 +1,16 @@
 - commits:
+    - subject: Handle repo.yml with no repo.type
+      hash: fbd579ebb1b615be32f2d9b523c13648d1d364b3
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.4.0
+  date: 2019-03-04T10:25:59.757Z
+- commits:
     - subject: >-
         yocto-based-OS-image: Accept both meta-resin and meta-balena as valid
         sublayers
