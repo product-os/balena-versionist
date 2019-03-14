@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add remapTypes
+      hash: 59fd77b9763133dfa701aa2117409f45965413e2
+      body: |
+        This allows us to easier rename existing types and map multiple repo
+        types to the same versionist settings
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.5.0
+  date: 2019-03-14T13:59:12.007Z
+- commits:
     - subject: Handle repo.yml with no repo.type
       hash: fbd579ebb1b615be32f2d9b523c13648d1d364b3
       body: ''
