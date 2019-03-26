@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add electron type
+      hash: 3617c9946aed9390f1fbe89a587c6f64b4330b2e
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.6.0
+  date: 2019-03-26T09:36:09.943Z
+- commits:
     - subject: Add remapTypes
       hash: 59fd77b9763133dfa701aa2117409f45965413e2
       body: |
