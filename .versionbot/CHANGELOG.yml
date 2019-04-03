@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add codeowners
+      hash: 453637640315cb087d1b11b5bdd0140d264a306d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.6.1
+  date: 2019-04-03T12:25:08.894Z
+- commits:
     - subject: Add electron type
       hash: 3617c9946aed9390f1fbe89a587c6f64b4330b2e
       body: ''
