@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add public-docs type
+      hash: 22cad8bf7bf0364218d3bad507dd1a891580ead7
+      body: |
+        Defaults to change-type: patch when no change-type is present
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.7.0
+  date: 2019-04-11T12:59:38.083Z
+- commits:
     - subject: Add codeowners
       hash: 453637640315cb087d1b11b5bdd0140d264a306d
       body: ''
