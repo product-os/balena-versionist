@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add docker repo type
+      hash: ca02de9b1a42ddb6e6c3d20caf084f36451b4243
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.8.0
+  date: 2019-04-15T14:21:04.089Z
+- commits:
     - subject: Add public-docs type
       hash: 22cad8bf7bf0364218d3bad507dd1a891580ead7
       body: |
