@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update readme with new repo.yml fields
+      hash: 2d6f42b66e6a2a3654426def4742b83f654546bc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.8.1
+  date: 2019-04-17T11:01:15.384Z
+- commits:
     - subject: Add docker repo type
       hash: ca02de9b1a42ddb6e6c3d20caf084f36451b4243
       body: ''
