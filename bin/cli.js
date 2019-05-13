@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const balenaVersionist = require('./index.js')
+const balenaVersionist = require('../lib/index.js')
 
 let path = '.'
 
