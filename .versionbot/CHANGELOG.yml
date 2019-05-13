@@ -1,4 +1,16 @@
 - commits:
+    - subject: Set updateVersion to mixed for type docker
+      hash: 664854a85d5a6666f387a881cb17bc69c57f6493
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.8.2
+  date: 2019-05-13T15:31:10.770Z
+- commits:
     - subject: Update readme with new repo.yml fields
       hash: 2d6f42b66e6a2a3654426def4742b83f654546bc
       body: ''
