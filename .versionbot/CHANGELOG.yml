@@ -1,4 +1,16 @@
 - commits:
+    - subject: Introduce basic tests
+      hash: 7f94f4d64eb1fff6d7618577d9778bc28c75c729
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.9.0
+  date: 2019-05-13T17:19:22.456Z
+- commits:
     - subject: Set updateVersion to mixed for type docker
       hash: 664854a85d5a6666f387a881cb17bc69c57f6493
       body: ''
