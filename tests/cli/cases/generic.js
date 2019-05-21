@@ -49,7 +49,7 @@ utils.createCommit('fix: fix z', {
 
 utils.callBalenaVersionist();
 
-m.chai.expect(shelljs.cat('CHANGELOG.md').stdout).to.deep.equal([
+utils.compareChangelogs(shelljs.cat('CHANGELOG.md').stdout, [
   '# Change Log',
   '',
   'All notable changes to this project will be documented in this file',
@@ -57,7 +57,6 @@ m.chai.expect(shelljs.cat('CHANGELOG.md').stdout).to.deep.equal([
   'This project adheres to [Semantic Versioning](http://semver.org/).',
   '',
   '# v0.1.0',
-  '## (2019-05-13)',
   '',
   '* Fix z [Versionist]',
   '* Fix y [Versionist]',
