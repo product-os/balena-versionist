@@ -20,6 +20,7 @@ const _ = require('lodash');
 const shelljs = require('shelljs');
 const path = require('path');
 const YAML = require('js-yaml')
+const m = require('mochainon')
 
 exports.getTestTemporalPathFromFilename = (filename) => {
   const extension = path.extname(filename);
@@ -59,3 +60,16 @@ exports.callBalenaVersionist = (opts) => {
 
   return shelljs.exec(`node ${cliPath}${configString}`);
 };
+
+const DATE_REGEXP = /^## \(([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))\)/
+
+const omitDate = (changelog) => {
+  const lines = changelog.split('\n')
+  return _.filter(lines, (line) => {
+    return !line.match(DATE_REGEXP)
+  }).join('\n')
+}
+
+exports.compareChangelogs = (result, expected) => {
+  return m.chai.expect(omitDate(result)).to.deep.equal(expected)
+}

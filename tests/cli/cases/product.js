@@ -26,7 +26,7 @@ shelljs.mkdir('-p', TEST_DIRECTORY);
 shelljs.cd(TEST_DIRECTORY);
 
 utils.createRepoYaml({
-  type: 'generic'
+  type: 'product'
 });
 
 shelljs.exec('git init');
