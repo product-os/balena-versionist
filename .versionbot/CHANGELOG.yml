@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'Follow up yocto layer rename: resin > balena'
+      hash: 5cb90315e58cb92e5bf2472e131b6df3f44ea6e1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Andrei Gherzan <andrei@balena.io>
+        signed-off-by: Andrei Gherzan <andrei@balena.io>
+      author: Andrei Gherzan
+  version: 0.9.2
+  date: 2019-06-14T13:15:38.080Z
+- commits:
     - subject: Add nested-changelog preset to generic type
       hash: 627457c009d6be7f72cb6c848465a9ec8f01d98a
       body: ''
