@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update js-yaml for security reasons and remove unused deps
+      hash: d39836a70177d1902510cfc2032bb3374da76379
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.9.3
+  date: 2019-06-14T13:49:28.304Z
+- commits:
     - subject: 'Follow up yocto layer rename: resin > balena'
       hash: 5cb90315e58cb92e5bf2472e131b6df3f44ea6e1
       body: ''
