@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix typo
+      hash: f13a32978bb55b909bb2763a5df74de7286d04ed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.9.4
+  date: 2019-06-14T14:35:10.643Z
+- commits:
     - subject: Update js-yaml for security reasons and remove unused deps
       hash: d39836a70177d1902510cfc2032bb3374da76379
       body: ''
