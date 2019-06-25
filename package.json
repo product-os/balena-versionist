@@ -21,6 +21,6 @@
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
-    "versionist": "^4.2.3"
+    "versionist": "^5.1.0"
   }
 }
