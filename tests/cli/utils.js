@@ -57,7 +57,6 @@ exports.callBalenaVersionist = (opts) => {
     }
     return result;
   }, '');
-
   return shelljs.exec(`node ${cliPath}${configString}`);
 };
 
