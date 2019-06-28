@@ -1,4 +1,16 @@
 - commits:
+    - subject: Default options to empty
+      hash: d60dca6285f8a09856215dc9d23f82614580ae63
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.10.1
+  date: 2019-06-28T08:46:21.347Z
+- commits:
     - subject: Update semver to balena-semver
       hash: 318593892df40601d2d215961d3454feef2bda84
       body: ''
