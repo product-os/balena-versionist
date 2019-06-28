@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update semver to balena-semver
+      hash: 318593892df40601d2d215961d3454feef2bda84
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+    - subject: Add the possibility to forward options to versionist
+      hash: 3222e78c91545d05e2ce566d73b0ed8eecff2a54
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+    - subject: Update versionist to new major version
+      hash: 31b1cb69dc08befb75601a0c6957862409ba15c6
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.10.0
+  date: 2019-06-28T07:11:20.895Z
+- commits:
     - subject: Fix typo
       hash: f13a32978bb55b909bb2763a5df74de7286d04ed
       body: ''
