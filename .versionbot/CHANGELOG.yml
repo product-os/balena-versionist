@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add balena-engine type to be treated as generic
+      hash: db7a796ff46e5b3cf4aea587e91d68ef7c31f747
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.11.0
+  date: 2019-07-17T08:14:15.584Z
+- commits:
     - subject: Default options to empty
       hash: d60dca6285f8a09856215dc9d23f82614580ae63
       body: ''
