@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add build-in-container type which maps to generic
+      hash: 00d89894e47b95063a9b5ce944c3614a41400eef
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.11.1
+  date: 2019-08-16T11:39:42.758Z
+- commits:
     - subject: Add balena-engine type to be treated as generic
       hash: db7a796ff46e5b3cf4aea587e91d68ef7c31f747
       body: ''
