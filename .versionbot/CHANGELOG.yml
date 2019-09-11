@@ -1,4 +1,22 @@
 - commits:
+    - subject: Bump lodash from 4.17.11 to 4.17.13
+      hash: 1a730a5a15f87c4ec80ccabf732e1d8203863b24
+      body: >
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to
+        4.17.13.
+
+        - [Release notes](https://github.com/lodash/lodash/releases)
+
+        - [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.13)
+      footer:
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+        Change-type: patch
+        change-type: patch
+      author: 'dependabot[bot]'
+  version: 0.11.2
+  date: 2019-09-06T12:29:27.345Z
+- commits:
     - subject: Add build-in-container type which maps to generic
       hash: 00d89894e47b95063a9b5ce944c3614a41400eef
       body: ''
