@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add debug option to log versionist output
+      hash: d0f5b4e3e7fb7e9e298d0ec4074019ff39dbb365
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.11.3
+  date: 2019-10-04T09:36:35.875Z
+- commits:
     - subject: Bump lodash from 4.17.11 to 4.17.13
       hash: 1a730a5a15f87c4ec80ccabf732e1d8203863b24
       body: >
