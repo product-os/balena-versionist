@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add hardware to generic remap
+      hash: 030503bf4673069f556cafc27570bfc6f24919bc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.11.4
+  date: 2020-02-13T16:43:22.021Z
+- commits:
     - subject: Add debug option to log versionist output
       hash: d0f5b4e3e7fb7e9e298d0ec4074019ff39dbb365
       body: ''
