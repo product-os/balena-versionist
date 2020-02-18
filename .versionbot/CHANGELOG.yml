@@ -1,4 +1,16 @@
 - commits:
+    - subject: Version node-cli projects as node ones
+      hash: 2f8cec334e2bd77faaf6a8225c3bfa9a681fbf59
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.12.0
+  date: 2020-02-18T12:09:31.942Z
+- commits:
     - subject: Add hardware to generic remap
       hash: 030503bf4673069f556cafc27570bfc6f24919bc
       body: ''
