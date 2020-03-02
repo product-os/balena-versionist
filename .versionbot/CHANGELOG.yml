@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add project remap from 'balena' to 'generic'
+      hash: ca3e5af0de4ef376448cc17c01eba3e73f2c8eab
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Tormo <tomast@balena.io>
+        signed-off-by: Tomás Tormo <tomast@balena.io>
+      author: Tomás Tormo
+  version: 0.12.1
+  date: 2020-02-26T07:40:02.616Z
+- commits:
     - subject: Version node-cli projects as node ones
       hash: 2f8cec334e2bd77faaf6a8225c3bfa9a681fbf59
       body: ''
