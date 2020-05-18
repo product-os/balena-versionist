@@ -1,4 +1,16 @@
 - commits:
+    - subject: Make sure balena-engine can be properly versioned
+      hash: 7c2a502d6c7a3a5c3d046495a2b38a9d9fa1fedf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Robert Günzler <robertg@balena.io>
+        signed-off-by: Robert Günzler <robertg@balena.io>
+      author: Robert Günzler
+  version: 0.12.3
+  date: 2020-05-18T17:20:12.749Z
+- commits:
     - subject: Prevent balena-engine versions from being sanitized
       hash: 17de29312a625813a87d05ffd905d4925e740c87
       body: ''
