@@ -6,7 +6,11 @@ const balenaVersionist = require('../lib/index.js')
 capitano.command({
   signature: '[path]',
   description: 'Run versionist in path',
-  options: [],
+  options: [{
+    signature: 'silent',
+    boolean: true,
+    description: 'No output, defaults to false'
+  }],
   action: (params, options) => {
     const path = params.path || '.'
     balenaVersionist.runBalenaVersionist(path, options)
@@ -16,7 +20,11 @@ capitano.command({
 capitano.command({
   signature: 'set <version> [path]',
   description: 'Run versionist in path with set versions',
-  options: [],
+  options: [{
+    signature: 'silent',
+    boolean: true,
+    description: 'No output, defaults to false'
+  }],
   action: (params, options) => {
     const path = params.path || '.'
     balenaVersionist.runBalenaVersionist(path, {
