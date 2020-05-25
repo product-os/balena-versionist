@@ -1,4 +1,20 @@
 - commits:
+    - subject: Check log level before logging to stderr
+      hash: 218caf76e8dac9b7a9d6271b5e4918b946885a27
+      body: >
+        It is useful to disable stderr logging when running tests as it may
+        cause
+
+        issues for some testing frameworks
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.12.4
+  date: 2020-05-25T10:01:59.908Z
+- commits:
     - subject: Make sure balena-engine can be properly versioned
       hash: 7c2a502d6c7a3a5c3d046495a2b38a9d9fa1fedf
       body: ''
