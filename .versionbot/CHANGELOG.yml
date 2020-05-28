@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update clean function for balena-engine so it removes the v prefix.
+      hash: f6be808325b7ac5cc0d5629cb5cee14e245404ce
+      body: |
+        We can not use the default (clean: true) as that will run through
+        semver.isValid, that strips leading 0s from the version numbers
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.12.5
+  date: 2020-05-28T14:57:56.089Z
+- commits:
     - subject: Check log level before logging to stderr
       hash: 218caf76e8dac9b7a9d6271b5e4918b946885a27
       body: >
