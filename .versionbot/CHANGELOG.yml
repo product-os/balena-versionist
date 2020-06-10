@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add TS declaration file
+      hash: 7415547fc81b1adb84328d912fe09f7bfcf20722
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.12.6
+  date: 2020-06-09T14:23:01.648Z
+- commits:
     - subject: Update clean function for balena-engine so it removes the v prefix.
       hash: f6be808325b7ac5cc0d5629cb5cee14e245404ce
       body: |
