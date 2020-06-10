@@ -23,5 +23,6 @@
   },
   "devDependencies": {
     "versionist": "^5.2.0"
-  }
+  },
+  "types": "lib/index.d.ts"
 }
