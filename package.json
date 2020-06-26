@@ -12,17 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.2",
-    "capitano": "^1.9.0",
-    "js-yaml": "^3.13.1",
-    "lodash": "^4.17.11",
+    "bluebird": "^3.7.2",
+    "capitano": "^1.9.2",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.19",
     "mochainon": "^2.0.0",
-    "mustache": "^3.0.0",
+    "mustache": "^4.0.1",
     "parse-github-url": "^1.0.2",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "versionist": "^5.2.0"
+    "versionist": "^6.1.7"
   },
   "types": "lib/index.d.ts"
 }
