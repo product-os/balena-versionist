@@ -1,4 +1,30 @@
 - commits:
+    - subject: Allow setting a custom versionist configuration
+      hash: 33bdcd91ee54462230d505f33438c025842113e9
+      body: >
+        When configuring a repo with a generic type we create a temporary config
+
+        file for versionist from this template:
+
+        https://github.com/balena-io/balena-versionist/blob/master/lib/repo-type-mappings/generic/versionist.conf.js
+
+        This prevents the repo to set it's own custom `versionist.conf.js` in
+
+        case it needs to modify behavior.
+
+
+        This commit skips using the preset config when a versionist config is
+
+        detected in the repo root.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Robert Günzler <robertg@balena.io>
+        signed-off-by: Robert Günzler <robertg@balena.io>
+      author: Robert Günzler
+  version: 0.14.0
+  date: 2020-08-20T09:01:25.412Z
+- commits:
     - subject: Remove changelog-entry preset from electron projects
       hash: 21c18c76a4ef15eec480ae2fcd5105d1ae674204
       body: ''
