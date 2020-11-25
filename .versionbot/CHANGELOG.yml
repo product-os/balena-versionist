@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add nested changelogs for all repo types
+      hash: e86525fa0f788415dfe13c5bd4dfcc0d372505a5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+  version: 0.13.1
+  date: 2020-11-25T18:02:59.393Z
+- commits:
     - subject: Remove changelog-entry preset from electron projects
       hash: 21c18c76a4ef15eec480ae2fcd5105d1ae674204
       body: ''
