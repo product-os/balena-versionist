@@ -1,4 +1,16 @@
 - commits:
+    - subject: Allow revisions of 2 or more digits for yocto-based-OS-image
+      hash: 5a213ff4d38fc367f215d6a1929c4ce6b5ae2a9b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 0.13.3
+  date: 2021-09-07T17:01:50.051Z
+- commits:
     - subject: Delete CODEOWNERS
       hash: 183f4a50af612f59093ddd85d258e51df880d302
       body: >
