@@ -1,3 +1,4 @@
 - name: 'lodash'
 - name: 'balena-semver'
 - name: 'shelljs'
+- name: 'js-yaml'
