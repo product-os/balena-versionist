@@ -1,4 +1,18 @@
 - commits:
+    - subject: Revert "Allow revisions of 2 or more digits for yocto-based-OS-image"
+      hash: 5434572b1183eef52d446e14fcb9bbc581c336fd
+      body: |
+        This reverts commit 5a213ff4d38fc367f215d6a1929c4ce6b5ae2a9b.
+
+        ESR releases with format YYYY.QQ.n do not have a `+rev` suffix and this
+        commit breaks the increment for them.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alex Gonzalez
+  version: 0.13.5
+  date: 2021-11-09T12:46:49.079Z
+- commits:
     - subject: Bump balena versionist to 6.6.0
       hash: b2aadf0862766326bba30a425d0f60b47a8ec25d
       body: ''
