@@ -22,7 +22,7 @@
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "versionist": "^6.6.0"
+    "versionist": "6.6.2-log-versionist-1fae49f3c7923d61f39952ed588cd30344fa3bb0"
   },
   "types": "lib/index.d.ts",
   "versionist": {
