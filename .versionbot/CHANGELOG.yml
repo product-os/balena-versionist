@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add logging
+      hash: f4087b4861b6009244c2e5cad13f2de1f2b5933c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.13.5
+  date: 2021-11-09T16:34:25.497Z
+- commits:
     - subject: Bump balena versionist to 6.6.0
       hash: b2aadf0862766326bba30a425d0f60b47a8ec25d
       body: ''
