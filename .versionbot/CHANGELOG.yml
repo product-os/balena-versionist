@@ -1,4 +1,17 @@
 - commits:
+    - subject: Revert "Introduce temp-os-image project type to test new OS versioning"
+      hash: aac33c15820e8ad940d37eaaab4319f054deee2f
+      body: |
+        This reverts commit c60b446dee8993fffc1b996355fff18ebd7cb502.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.13.7
+  date: 2021-11-12T15:14:02.841Z
+- commits:
     - subject: Introduce temp-os-image project type to test new OS versioning
       hash: c60b446dee8993fffc1b996355fff18ebd7cb502
       body: |
