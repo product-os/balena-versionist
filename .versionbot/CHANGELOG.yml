@@ -1,4 +1,17 @@
 - commits:
+    - subject: Introduce temp-os-image project type to test new OS versioning
+      hash: c60b446dee8993fffc1b996355fff18ebd7cb502
+      body: |
+        This is so that the changes can be tested in a single device type.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.13.6
+  date: 2021-11-12T10:46:52.931Z
+- commits:
     - subject: Revert "Allow revisions of 2 or more digits for yocto-based-OS-image"
       hash: 5434572b1183eef52d446e14fcb9bbc581c336fd
       body: |
