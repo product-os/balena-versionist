@@ -1,6 +1,6 @@
 {
   "name": "balena-versionist",
-  "version": "0.13.7",
+  "version": "0.13.8",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -26,6 +26,6 @@
   },
   "types": "lib/index.d.ts",
   "versionist": {
-    "publishedAt": "2021-11-12T15:14:02.912Z"
+    "publishedAt": "2021-11-12T21:55:24.653Z"
   }
 }

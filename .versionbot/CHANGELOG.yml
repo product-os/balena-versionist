@@ -1,4 +1,17 @@
 - commits:
+    - subject: Parse yocto revisions of more than one digit
+      hash: e9a03cdbbaea961168fbd037226ce6a8f206239f
+      body: |
+        Supports both yocto revisions and ESR releases.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 0.13.8
+  date: 2021-11-12T21:55:24.581Z
+- commits:
     - subject: Revert "Introduce temp-os-image project type to test new OS versioning"
       hash: aac33c15820e8ad940d37eaaab4319f054deee2f
       body: |
