@@ -1,4 +1,42 @@
 - commits:
+    - subject: 'yocto-based-OS-image: Update balena.yml to match repository version'
+      hash: 801cdd3cdab4c13cb65b812ccb19dab2301e5e26
+      body: >
+        The version is the balena.yml file will be used by the API to version
+        the
+
+        release in the fleet.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+    - subject: 'yocto-based-OS-image: Modify to match fleet versioning'
+      hash: 67523817f249e94cb645a8ab44f9ddc37970b989
+      body: >
+        When releasing into a fleet a version specified in a contract,
+
+        the initial commit is M.m.p (+rev0 is omitted) and subsequent commits
+        are of
+
+        the form M.m.p+revN where N starts at 1, as long as the contract version
+
+        remains the same.
+
+
+        This change uses the same convention for OS repositories so that the
+
+        commit tag and the fleet hostapp releases match.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.13.8
+  date: 2021-11-17T15:56:33.351Z
+- commits:
     - subject: Revert "Introduce temp-os-image project type to test new OS versioning"
       hash: aac33c15820e8ad940d37eaaab4319f054deee2f
       body: |
