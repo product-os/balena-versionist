@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'yocto-based-OS-image: Fix empty check on object type'
+      hash: 00483bf6b4d3871a276b58949b2c6354f16e5595
+      body: |
+        As parsedCurrentVersion.build is of object type the current check is
+        always true even when the object is empty.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.13.9
+  date: 2021-12-01T12:53:20.512Z
+- commits:
     - subject: 'yocto-based-OS-image: Update balena.yml to match repository version'
       hash: 801cdd3cdab4c13cb65b812ccb19dab2301e5e26
       body: >
