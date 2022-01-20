@@ -1,4 +1,18 @@
 - commits:
+    - subject: Prevent pattern HTML-escaping
+      hash: b6f09799899d0f3dfcc99352fd40217c3c9c0432
+      body: >
+        Prevent mustache HTML-escaping the patterns, so that they can be
+        properly matched in the regex.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.13.10
+  date: 2022-01-20T15:29:39.447Z
+- commits:
     - subject: 'yocto-based-OS-image: Fix empty check on object type'
       hash: 00483bf6b4d3871a276b58949b2c6354f16e5595
       body: |
