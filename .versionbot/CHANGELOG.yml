@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix custom config not being used
+      hash: a111d9b63c29415927465da0f254515b9bd930c0
+      body: >
+        versionist.conf.js in root directory was not being respected by
+        balena-versionist.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.13.11
+  date: 2022-01-21T10:02:27.752Z
+- commits:
     - subject: Prevent pattern HTML-escaping
       hash: b6f09799899d0f3dfcc99352fd40217c3c9c0432
       body: >
