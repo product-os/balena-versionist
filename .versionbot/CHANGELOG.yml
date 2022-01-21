@@ -1,4 +1,16 @@
 - commits:
+    - subject: Bump versionist to 6.7.0
+      hash: c857a3d7a89f5fa29cd3e3207a99e4cc1c141540
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.14.1
+  date: 2022-01-21T11:42:53.536Z
+- commits:
     - subject: Pass title info to versionist
       hash: e771d38a469fd9720704e966ef558120a782e7c8
       body: |
