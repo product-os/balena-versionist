@@ -10,6 +10,11 @@ capitano.command({
     signature: 'silent',
     boolean: true,
     description: 'No output, defaults to false'
+  }, {
+    signature: 'title',
+    parameter: 'title',
+    alias: ['t'],
+    description: 'set changelog title'
   }],
   action: (params, options) => {
     const path = params.path || '.'
@@ -24,6 +29,11 @@ capitano.command({
     signature: 'silent',
     boolean: true,
     description: 'No output, defaults to false'
+  },{
+    signature: 'title',
+    parameter: 'title',
+    alias: ['t'],
+    description: 'set changelog title'
   }],
   action: (params, options) => {
     const path = params.path || '.'
