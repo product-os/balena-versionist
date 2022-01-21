@@ -1,4 +1,17 @@
 - commits:
+    - subject: Pass title info to versionist
+      hash: e771d38a469fd9720704e966ef558120a782e7c8
+      body: |
+        Title info can be passed along (--title, -t).
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stathis Moraitidis <stathis@balena.io>
+        signed-off-by: Stathis Moraitidis <stathis@balena.io>
+      author: stathismor
+  version: 0.14.0
+  date: 2022-01-21T10:51:52.932Z
+- commits:
     - subject: Fix custom config not being used
       hash: a111d9b63c29415927465da0f254515b9bd930c0
       body: >
