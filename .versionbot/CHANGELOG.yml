@@ -1,4 +1,25 @@
 - commits:
+    - subject: "yocto-based-OS-image: Support both legacy and semver compatible ESR
+        versions"
+      hash: 687d72fd52879aea37fd53c6476bbfa227c61e45
+      body: |
+        Going forward ESR versioning will be semver compatible (i.e CCYY.Q.n),
+        while the legacy numbering was of the form CCYY.QQ.n, with QQ being 01,
+        04,07 or 10 which is not semver compatible.
+
+        This commit adjusts the versioning configuration to support both type
+        of versioning formats.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.14.3
+  title: "'yocto-based-OS-image: Support both legacy and semver compatible ESR
+    versions'"
+  date: 2022-03-18T17:14:58.443Z
+- commits:
     - subject: Stringify title
       hash: 6fc1f85b2bf33e58e0f1673548d90460aa73c851
       body: |
