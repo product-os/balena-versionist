@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump versionist to v6.7.1
+      hash: 264c91936fc1bee84ea69f6a04da05c6da1fdf0c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+  version: 0.14.4
+  title: "'Bump versionist to v6.7.1'"
+  date: 2022-03-18T17:28:07.017Z
+- commits:
     - subject: "yocto-based-OS-image: Support both legacy and semver compatible ESR
         versions"
       hash: 687d72fd52879aea37fd53c6476bbfa227c61e45
