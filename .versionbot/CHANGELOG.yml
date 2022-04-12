@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use '.cjs' in filename to identify the config as a CommonJS module
+      hash: ee460501ae4ee35e568b47f1a52f665683835651
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+      author: Ken Bannister
+  version: 0.14.5
+  title: "'Use '.cjs' in filename to identify the config as a CommonJS module'"
+  date: 2022-04-01T19:13:10.414Z
+- commits:
     - subject: Bump versionist to v6.7.1
       hash: 264c91936fc1bee84ea69f6a04da05c6da1fdf0c
       body: ""
