@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use `spawnAsync` instead of `execAsync` to avoid the shell entirely
+      hash: 867edb7c8ef519bd338c06bb2a7a1adaf892ea15
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@balena.io>
+        signed-off-by: Carol Schulze <carol@balena.io>
+      author: Carol Schulze
+  version: 0.14.6
+  title: "'Use  instead of  to avoid the shell entirely'"
+  date: 2022-07-25T16:25:52.683Z
+- commits:
     - subject: Use '.cjs' in filename to identify the config as a CommonJS module
       hash: ee460501ae4ee35e568b47f1a52f665683835651
       body: ""
