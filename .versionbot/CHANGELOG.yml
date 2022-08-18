@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update dependency shelljs to 0.8.5 [SECURITY]
+      hash: 1af48049182c109d4e932bcebeb6899e5b97cb9a
+      body: |
+        Update shelljs to 0.8.5
+
+        Update shelljs from 0.8.4 to 0.8.5
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+  version: 0.14.6
+  title: "'Update dependency shelljs to 0.8.5 [SECURITY]'"
+  date: 2022-08-18T20:23:45.541Z
+- commits:
     - subject: Use '.cjs' in filename to identify the config as a CommonJS module
       hash: ee460501ae4ee35e568b47f1a52f665683835651
       body: ""
