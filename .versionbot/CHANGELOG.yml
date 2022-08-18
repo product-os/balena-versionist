@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update dependency lodash to 4.17.21 [SECURITY]
+      hash: 0b68f26814dcfc67afb9857f72083a1989452b61
+      body: |
+        Update lodash to 4.17.21
+
+        Update lodash from 4.17.19 to 4.17.21
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+  version: 0.14.7
+  title: "'Update dependency lodash to 4.17.21 [SECURITY]'"
+  date: 2022-08-18T20:49:47.615Z
+- commits:
     - subject: Update dependency shelljs to 0.8.5 [SECURITY]
       hash: 1af48049182c109d4e932bcebeb6899e5b97cb9a
       body: |
