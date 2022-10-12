@@ -1,4 +1,15 @@
 - commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: 82220e31070238f5e578a4460488b9e6062b08e4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 0.14.8
+  title: ""
+  date: 2022-10-12T14:14:34.823Z
+- commits:
     - subject: Update dependency lodash to 4.17.21 [SECURITY]
       hash: 0b68f26814dcfc67afb9857f72083a1989452b61
       body: |
