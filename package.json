@@ -7,22 +7,28 @@
     "balena-versionist": "bin/cli.js"
   },
   "scripts": {
-    "test": "node tests/cli/run"
+    "pretest": "npx tsc --noEmit",
+    "test": "node tests/cli/run",
+    "posttest": "npm run lint",
+    "lint": "balena-lint -e ts -e js lib/index.d.ts lib/index.js lib/remap.js tests/ bin/",
+    "lint-fix": "balena-lint -e ts -e js --fix lib/index.d.ts lib/index.js lib/remap.js tests/ bin/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
     "capitano": "^1.9.2",
-    "js-yaml": "^3.14.0",
-    "lodash": "^4.17.19",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
     "mochainon": "^2.0.0",
-    "mustache": "^4.0.1",
+    "mustache": "^4.2.0",
     "parse-github-url": "^1.0.2",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "versionist": "^6.7.1"
+    "@balena/lint": "^6.2.0",
+    "typescript": "^4.8.4",
+    "versionist": "^6.8.3"
   },
   "types": "lib/index.d.ts",
   "versionist": {

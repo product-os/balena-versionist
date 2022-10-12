@@ -19,56 +19,61 @@
 const _ = require('lodash');
 const shelljs = require('shelljs');
 const path = require('path');
-const YAML = require('js-yaml')
-const m = require('mochainon')
+const YAML = require('js-yaml');
+const m = require('mochainon');
 
 exports.getTestTemporalPathFromFilename = (filename) => {
-  const extension = path.extname(filename);
-  const name = path.basename(filename, extension);
-  return path.join(__dirname, 'temporal', name);
+	const extension = path.extname(filename);
+	const name = path.basename(filename, extension);
+	return path.join(__dirname, 'temporal', name);
 };
 
 exports.createCommit = (title, tags) => {
-  const footer = _.join(_.map(tags, (value, name) => {
-    return `${name}: ${value}`;
-  }), '\n');
+	const footer = _.join(
+		_.map(tags, (value, name) => {
+			return `${name}: ${value}`;
+		}),
+		'\n',
+	);
 
-  shelljs.echo([
-    title,
-    '',
-    footer
-  ].join('\n')).to('message.txt');
+	shelljs.echo([title, '', footer].join('\n')).to('message.txt');
 
-  shelljs.exec('git -c "user.name=Versionist" -c "user.email=versionist@resin.io" commit --allow-empty -F message.txt');
+	shelljs.exec(
+		'git -c "user.name=Versionist" -c "user.email=versionist@resin.io" commit --allow-empty -F message.txt',
+	);
 };
 
 exports.createRepoYaml = (configuration) => {
-  shelljs.echo(YAML.safeDump(configuration)).to('repo.yml');
+	shelljs.echo(YAML.dump(configuration)).to('repo.yml');
 };
 
 exports.callBalenaVersionist = (opts) => {
-  const cliPath = path.join(__dirname, '..', '..', 'bin', 'cli.js');
+	const cliPath = path.join(__dirname, '..', '..', 'bin', 'cli.js');
 
-  const configString = _.reduce(opts, function(result, value, key) {
-    if (key === 'cmd' || key === 'command') {
-      result = ` ${value} ${result}`;
-    } else {
-      result += ` --${key}=${value}`;
-    }
-    return result;
-  }, '');
-  return shelljs.exec(`node ${cliPath}${configString}`);
+	const configString = _.reduce(
+		opts,
+		function (result, value, key) {
+			if (key === 'cmd' || key === 'command') {
+				result = ` ${value} ${result}`;
+			} else {
+				result += ` --${key}=${value}`;
+			}
+			return result;
+		},
+		'',
+	);
+	return shelljs.exec(`node ${cliPath}${configString}`);
 };
 
-const DATE_REGEXP = /^## \(([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))\)/
+const DATE_REGEXP = /^## \(([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))\)/;
 
 const omitDate = (changelog) => {
-  const lines = changelog.split('\n')
-  return _.filter(lines, (line) => {
-    return !line.match(DATE_REGEXP)
-  }).join('\n')
-}
+	const lines = changelog.split('\n');
+	return _.filter(lines, (line) => {
+		return !line.match(DATE_REGEXP);
+	}).join('\n');
+};
 
 exports.compareChangelogs = (result, expected) => {
-  return m.chai.expect(omitDate(result)).to.deep.equal(expected)
-}
+	return m.chai.expect(omitDate(result)).to.deep.equal(expected);
+};

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "outDir": "lib"
+  },
+  "include": [
+    "bin/**/*",
+    "lib/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/**/versionist.conf.js",
+  ]
+}
