@@ -1,4 +1,15 @@
 - commits:
+    - subject: Bump versionist to v6.9.0
+      hash: 98e2167510bb51ec85b326ad3aff105fd20274da
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 0.14.11
+  title: ""
+  date: 2022-11-23T21:22:08.897Z
+- commits:
     - subject: Add python-poetry mapping.
       hash: 3cf77841c4cc19df9d8e8719bd53b7f69c7f2c39
       body: ""
