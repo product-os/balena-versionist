@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Bump versionist to 6.9.2"
+      hash: 505573c02255e1cd9497b3230f3d3e2e068801e7
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 0.14.12
+  title: ""
+  date: 2022-11-29T22:10:58.532Z
+- commits:
     - subject: Bump versionist to v6.9.0
       hash: 98e2167510bb51ec85b326ad3aff105fd20274da
       body: ""
