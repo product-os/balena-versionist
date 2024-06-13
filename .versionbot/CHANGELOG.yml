@@ -1,4 +1,24 @@
 - commits:
+    - subject: Add `dbt-project` type mapping
+      hash: 7cdc839c750282bdfc413f66dd1306e211fb7db6
+      body: >
+        This change introduces a new `dbt-project` repository type mapping,
+        designed specifically for dbt (data build tool) projects.
+
+        All dbt projects require a standard `dbt_project.yml` configuration file
+        at a minimum, which is used in this script.
+
+        For reference, see https://docs.getdbt.com/docs/build/projects
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Pranas Ziaukas <pranas@balena.io>
+        signed-off-by: Pranas Ziaukas <pranas@balena.io>
+      author: Pranas Ziaukas
+  version: 0.15.0
+  title: ""
+  date: 2024-06-13T11:47:47.902Z
+- commits:
     - subject: Update versionist to v6.10.0
       hash: d5ff674453c93bf98aeab087f1c328901adf351b
       body: |
@@ -240,7 +260,8 @@
       body: >
         When releasing into a fleet a version specified in a contract,
 
-        the initial commit is M.m.p (+rev0 is omitted) and subsequent commits are of
+        the initial commit is M.m.p (+rev0 is omitted) and subsequent commits
+        are of
 
         the form M.m.p+revN where N starts at 1, as long as the contract version
 
