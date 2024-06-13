@@ -26,7 +26,7 @@
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "@balena/lint": "^6.2.0",
+    "@balena/lint": "^8.0.0",
     "typescript": "^4.8.4",
     "versionist": "^6.10.0"
   },
