@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update flowzone.yml to allow external PRs
+      hash: 5987f51d65497f09bbc8f3cb48a8d8e4affed0bf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 0.15.1
+  title: ""
+  date: 2025-05-26T11:52:15.658Z
+- commits:
     - subject: Add `dbt-project` type mapping
       hash: 7cdc839c750282bdfc413f66dd1306e211fb7db6
       body: >
@@ -346,9 +357,8 @@
 - commits:
     - subject: Delete CODEOWNERS
       hash: 183f4a50af612f59093ddd85d258e51df880d302
-      body: >
-        See
-        https://www.flowdock.com/app/rulemotion/pub/threads/trLcZFnSX9fLZn4LiaIv4xuBbah
+      body: |
+        See https://www.flowdock.com/app/rulemotion/pub/threads/trLcZFnSX9fLZn4LiaIv4xuBbah
       footer:
         Change-type: patch
         change-type: patch
