@@ -1,4 +1,17 @@
 - commits:
+    - subject: "fix: Fix custom dependencies for config not being used"
+      hash: 729b267d3456358d2a79bb32e0c6e3512fd867ed
+      body: >
+        dependencies.yml for versionist.conf.js in root directory was not being
+        respected by balena-versionist.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: issenn
+  version: 0.15.2
+  title: ""
+  date: 2025-05-28T12:48:14.368Z
+- commits:
     - subject: Update flowzone.yml to allow external PRs
       hash: 5987f51d65497f09bbc8f3cb48a8d8e4affed0bf
       body: ""
