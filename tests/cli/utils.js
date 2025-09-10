@@ -16,7 +16,6 @@
 
 'use strict';
 
-const _ = require('lodash');
 const shelljs = require('shelljs');
 const path = require('path');
 const YAML = require('js-yaml');
@@ -29,12 +28,11 @@ exports.getTestTemporalPathFromFilename = (filename) => {
 };
 
 exports.createCommit = (title, tags) => {
-	const footer = _.join(
-		_.map(tags, (value, name) => {
+	const footer = Object.entries(tags)
+		.map(([name, value]) => {
 			return `${name}: ${value}`;
-		}),
-		'\n',
-	);
+		})
+		.join('\n');
 
 	shelljs.echo([title, '', footer].join('\n')).to('message.txt');
 
@@ -47,21 +45,21 @@ exports.createRepoYaml = (configuration) => {
 	shelljs.echo(YAML.dump(configuration)).to('repo.yml');
 };
 
-exports.callBalenaVersionist = (opts) => {
+exports.callBalenaVersionist = (opts = {}) => {
 	const cliPath = path.join(__dirname, '..', '..', 'bin', 'cli.js');
 
-	const configString = _.reduce(
-		opts,
-		function (result, value, key) {
-			if (key === 'cmd' || key === 'command') {
-				result = ` ${value} ${result}`;
-			} else {
-				result += ` --${key}=${value}`;
-			}
-			return result;
-		},
-		'',
-	);
+	const configString = Object.entries(opts).reduce(function (
+		result,
+		[key, value],
+	) {
+		if (key === 'cmd' || key === 'command') {
+			result = ` ${value} ${result}`;
+		} else {
+			result += ` --${key}=${value}`;
+		}
+		return result;
+	},
+	'');
 	return shelljs.exec(`node ${cliPath}${configString}`);
 };
 
@@ -69,9 +67,11 @@ const DATE_REGEXP = /^## \(([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))\)/;
 
 const omitDate = (changelog) => {
 	const lines = changelog.split('\n');
-	return _.filter(lines, (line) => {
-		return !line.match(DATE_REGEXP);
-	}).join('\n');
+	return lines
+		.filter((line) => {
+			return !line.match(DATE_REGEXP);
+		})
+		.join('\n');
 };
 
 exports.compareChangelogs = (result, expected) => {
