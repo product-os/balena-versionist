@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2017",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "preserveConstEnums": true,
@@ -12,6 +12,7 @@
     "strictNullChecks": true,
     "skipLibCheck": true,
     "allowJs": true,
+    "checkJs": true,
     "outDir": "lib"
   },
   "include": [

@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@balena/lint": "^6.2.0",
+    "@types/node": "^20.19.13",
     "mochainon": "^2.0.0",
     "typescript": "^5.9.2",
     "versionist": "^8.0.0"
