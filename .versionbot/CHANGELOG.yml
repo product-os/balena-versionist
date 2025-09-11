@@ -1,4 +1,43 @@
 - commits:
+    - subject: Switch from lodash to native methods
+      hash: e31348a8c600bbaf3e9c7b38d66f258ff0ce55a3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Switch from bluebird to native promises
+      hash: 07da68feae21c858d29a2a6d757c25cca21e72fd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Enable type checking for javascript files
+      hash: fa6c779d4b266c5ee0587a456c1d62fad0f6ce6a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Update dependencies
+      hash: 60ff1acaa463c6ff8a79f714c8251efe527961a4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Move mochainon to dev dependencies
+      hash: 4fb9695c042a0353d29a833e5ce46f51d630fc36
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 0.15.3
+  title: ""
+  date: 2025-09-11T11:27:57.029Z
+- commits:
     - subject: "fix: Fix custom dependencies for config not being used"
       hash: 729b267d3456358d2a79bb32e0c6e3512fd867ed
       body: >
