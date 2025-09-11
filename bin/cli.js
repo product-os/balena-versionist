@@ -41,7 +41,7 @@ capitano.command({
 			description: 'set changelog title',
 		},
 	],
-	action: (params, options) => {
+	action: (params) => {
 		const path = params.path || '.';
 		balenaVersionist.runBalenaVersionist(path, {
 			version: params.version,

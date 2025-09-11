@@ -16,12 +16,11 @@
 
 'use strict';
 
-const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 const shelljs = require('shelljs');
 
-_.each(fs.readdirSync(path.join(__dirname, 'cases')), (file) => {
+fs.readdirSync(path.join(__dirname, 'cases')).forEach((file) => {
 	if (!file.endsWith('.js')) {
 		return;
 	}
