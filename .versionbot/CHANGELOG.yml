@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependency js-yaml to v4.1.1 [SECURITY]
+      hash: 05c772397a9efb610b7f1d2b3b267a6a0704ec5b
+      body: |
+        Update js-yaml from 4.1.0 to 4.1.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+  version: 0.15.4
+  title: ""
+  date: 2025-11-14T14:51:09.342Z
+- commits:
     - subject: Switch from lodash to native methods
       hash: e31348a8c600bbaf3e9c7b38d66f258ff0ce55a3
       body: ""
