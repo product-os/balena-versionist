@@ -1,4 +1,17 @@
 - commits:
+    - subject: "Add id-token: write permission for NPM OIDC publishing"
+      hash: b550354a3bfe48d5addd71e69f1dc60657c73ed8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 0.15.5
+  title: ""
+  date: 2026-02-19T02:08:58.056Z
+- commits:
     - subject: Update dependency js-yaml to v4.1.1 [SECURITY]
       hash: 05c772397a9efb610b7f1d2b3b267a6a0704ec5b
       body: |
