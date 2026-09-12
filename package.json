@@ -23,7 +23,7 @@
     "shelljs": "^0.10.0"
   },
   "devDependencies": {
-    "@balena/lint": "^6.2.0",
+    "@balena/lint": "^9.0.0",
     "@types/node": "^20.19.13",
     "mochainon": "^2.0.0",
     "typescript": "^5.9.2",
